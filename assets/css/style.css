@@ -1,80 +1,96 @@
-body{
-  margin-left: 50px;
-  margin-right: 50px;
+body
+{
 }
 
-.container { 
-    width: auto; 
-    margin: auto;
-  }
+.container 
+{ 
+  width: 1000px; 
+  margin: auto;
+}
+
+#globo{padding: 50px 0px;}
+
+
+#globo .header  h1.title
+{
+  display: inline-block;
+  font-size: 20px;
+  color: red;
+  text-align: left;
+  text-transform: capitalize;
+}
+#globo .header h1.title small
+{
+  color: #333;
+  font-size: 16px;
+}
+
+#globo .header  a
+{
+  margin-left: auto;
+ display: inline-block;
+ float: right;
+ padding: 12px 30px;
+ background-color: red;
+ color: white;
+ text-decoration:none ;
+}
+
+
+#globo .cards
+{
+  display: flex;
+}
+
+#globo .cards .card 
+{
+  flex: 1; 
+  padding: 0px 3px; 
+  background-color: #ffffff; 
+  box-sizing: border-box;
+}
+
+#globo .cards .card img
+{
+  width: 100%;
+}
+
+#globo .cards .card h1
+{
+  color: #333;
+  text-align: center;
+} 
+
+#technologiaegames{}
+
+#technologiaegames .header h1
+{
+  font-size: 20px;
+  color: #333;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+#technologiaegames .cards
+{
+  display: flex;
+}
+
+#technologiaegames .cards .card 
+{
+  flex: 1; 
+  padding: 0px 5px; 
+  background-color: #ffffff; 
+  box-sizing: border-box;
   
-  #a
-  {
-    text-align: right;
-    margin-right: 20px;
-  }
-  #h1
-  {
-    margin-left: 20px;
-  }
-  #h3
-  {
-    margin-left: 20px;
-  }
-  
-  #globo h1.title{
-    color: red;
-    text-align: left;
-    text-transform: capitalize;
-  }
-  #globo a{
-    font-size: 20px;
-    text-align: end;
-    text-decoration: transparent;
-    color: white;
-    background-color: red;
-  }
-  #globo .cards{
-    display: flex;
-  }
-  #globo .cards .card {
-    flex: 1; 
-    padding: 50px 20px; 
-    margin: px px; 
-    background-color: #ffffff; 
-    box-sizing: border-box;
-  }
-  #globo .cards .card img{
-    width: 100%;
-  }
-  #globo .cards .card h1{
-    color: #333;
-    text-align: center;
-  }
-  
-  #technologiaegames h1.title{
-    color: #333;
-    text-align: left;
-    text-transform: capitalize;
-  }
-  #technologiaegames .cards{
-    display: flex;
-  }
-  #technologiaegames .cards .card {
-    flex: 1; 
-    padding: 50px 20px; 
-    margin: px px; 
-    background-color: #ffffff; 
-    box-sizing: border-box;
-  }
-  #technologiaegames .cards .card img{
-    width: 100%;
-  }
-  #technologiaegames .cards .card h1{
-    color: #333;
-    text-align: center;
-  }  
-  #h32
-  {
-    margin-left: 20px;
-  }
+}
+
+#technologiaegames .cards .card img
+{
+  width: 100%;
+}
+
+#technologiaegames h3
+{
+  margin-left:20px ;
+}
